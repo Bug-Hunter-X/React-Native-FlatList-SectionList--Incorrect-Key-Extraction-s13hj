@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in React Native's FlatList and SectionList components.  Using the index as the key for list items leads to problems when the data is updated, especially if items are added or removed.  This example shows the incorrect approach and then demonstrates the proper use of unique keys for optimal performance and correct rendering.
